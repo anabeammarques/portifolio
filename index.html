@@ -1,41 +1,53 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Inicial Portifólio Ana Marques</title>
-    <link rel = "stylesheet" href = "estilo.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Ana Marques - Portfólio</title>
 </head>
 <body>
-    <div id = "principal">
-        <div id = "cabecalho">
-            <div id = "menusup">
-                    <div id="logo"><a href = "index.html"><img src = "ELEMENTOS GRÁFICOS/LOGO.png" alt = "Logo Ana Marques"></a></div>
-                    <div id="quemsou"><a href="quemsoueu.html"><img src="ELEMENTOS GRÁFICOS/QSE/MENU SUPERIOR.png" alt="Tag Quem sou Eu" ></a></div>
-                    <div id="contato"><a href="contato.html"><img src="ELEMENTOS GRÁFICOS/CONTATO/MENU SUPERIOR.png" alt="Tag Contato"></a></div>
-          </div>
-    </div>
-<div id = "conteudo">
-    <img src="ELEMENTOS GRÁFICOS/FRASE/PÁGINA INICIAL.png" width="100%" alt="Frase Inicial">
-    <div class="tag1">
-        <a href="#audiovisual"><img src="ELEMENTOS GRÁFICOS/AUDIOVISUAL/MENU INFERIOR.png" alt="Tag Audiovisual" width="100%"></a>
-    
-</div>
-<div class="tag2">
-        <a href="#designgrafico"><img src="ELEMENTOS GRÁFICOS/DESIGN GRÁFICO/MENU INFERIOR.png" alt="Tag Design Gráfico" width="100%"></a>
-</div>
-<div class="tag3">
-         <a href="#fotografia"><img src="ELEMENTOS GRÁFICOS/FOTOGRAFIA/MENU INFERIOR.png" alt="Fotografia" width="100%"></a>
-</div>
-</div>
-</div>
-    
-    <a name = "audiovisual"></a>
-    <p>
-        <img src="4.png" alt="Arte prêmios" width="95%">
-        Sobre o projeto e pipipi popopo
-    </p>
+    <header class="header">
+        <a href="index.html">
+            <h1>Ana Marques</h1>
+        </a>
+        <p>A arte não reproduz o que vemos. Ela nos faz ver. // Paul Klee</p>
+    </header>
 
+    <nav class="nav">
+        <a href="quemsoueu.html">Quem Sou Eu</a>
+        <a href="filmografia.html">Filmografia</a>
+        <a href="fotografia.html">Fotografia</a>
+        <a href="contato.html">Contato</a>
+    </nav>
 
+    <section class="section" id="destaques">
+        <div class="container">
+            <h2>Conheça o meu trabalho :)</h2>
+
+            <!-- Catálogo de três obras principais -->
+            <div class="obra">
+                <img src="imagens/foto1_destaques.jpeg" alt="Destaque 1">
+                <h3>Produção</h3>
+                <p>Ciclos de Produção I</p>
+            </div>
+
+            <div class="obra">
+                <img src="imagens/foto2_destaque.jpeg" alt="Destaque 2">
+                <h3>Produção, direção & concepção</h3>
+                <p>Linguagem, Estética e Gêneros</p>
+            </div>
+
+            <div class="obra">
+                <img src="imagens/foto 3_destaque.jpg" alt="Destaque 3">
+                <h3>Atuação, edição & produção</h3>
+                <p>Fotografia</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        &copy; 2023 Ana Marques - Todos os direitos reservados
+    </footer>
 </body>
 </html>

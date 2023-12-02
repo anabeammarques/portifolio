@@ -1,0 +1,90 @@
+body {
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+    color: #fff; /* texto em branco para melhor contraste */
+    background-color: #111; /* fundo preto/cinza */
+}
+.galeria img {
+    
+    height: 200px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.texto {
+    flex: 1;
+    text-align: center;
+}
+.header {
+    background-color: #900; /* vermelho */
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    color: #fff; /* branco para o título do site */
+}
+
+.nav {
+    background-color: #00f; /* azul */
+    text-align: center;
+    padding: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    background-color: #00a; /* tom mais escuro de azul quando hover */
+}
+
+.section {
+    text-align: center;
+    padding: 20px;
+}
+
+#destaques {
+    background-color: #000; /* preto para a região de destaques */
+    color: #fff; /* branco para o texto dentro da região de destaques */
+}
+
+#destaques .obra {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+
+#destaques .obra img {
+    width: auto;
+    height: 200px; /* Ajuste a altura conforme necessário */
+    max-width: 100%; /* Garante que a largura não ultrapasse o contêiner */
+    border-radius: 5px; /* Adiciona borda arredondada */
+}
+#quemsoueu .perfil img {
+    height: 200px;
+    border-radius: 5px;
+}
+#filmografia .filme img {
+    height: 200px;
+    border-radius: 20px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #d4af37; /* mostarda */
+}
+#contato .contato-item img {
+    height: 35px;
+}
