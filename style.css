@@ -21,10 +21,8 @@ body {
     text-align: center;
     padding: 20px;
 }
-
-.header h1 {
-    margin: 0;
-    color: #fff; /* branco para o título do site */
+.header img {
+    height: 60px;
 }
 
 .nav {
@@ -79,6 +77,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 
 .footer {
     text-align: center;
